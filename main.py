@@ -3,10 +3,10 @@
 from time import time
 
 
-with open(r'./data.bin', 'w') as f:
+with open(r'./data.txt', 'w') as f:
     f.write(str(time()))
 
-with open(r'./data.bin') as f:
+with open(r'./data.txt') as f:
     print('Data:', f.read())
 
 print('Nice project though!')
